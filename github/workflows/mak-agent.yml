@@ -1,0 +1,21 @@
+name: Mak_Super_Agent_System
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  initialize_agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: Setup Python Environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Run Mak Core
+        run: |
+          echo "🚀 Mak Agent is checking system integrity..."
+          python core_init.py
+          
