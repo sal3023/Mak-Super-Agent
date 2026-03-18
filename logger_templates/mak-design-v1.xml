@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsversion='3' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/ns/static' xmlns:expr='http://www.google.com/ds/expressions'>
+<head>
+  <meta charset='utf-8'/>
+  <meta content='width=device-width,initial-scale=1' name='viewport'/>
+  <title><data:blog.pageTitle/></title>
+  <b:include data='blog' name='all-head-content'/>
+  <style type='text/css'>
+    body { background: #0a0a0a; color: #00ffcc; font-family: monospace; text-align: center; }
+    .agent-status { border: 2px solid #00ffcc; padding: 20px; display: inline-block; margin-top: 50px; border-radius: 10px; box-shadow: 0 0 15px #00ffcc; }
+  </style>
+</head>
+<body>
+  <div class='agent-status'>
+    <h1>MAK SUPER AGENT: ONLINE</h1>
+    <p>Repository: sal3023/Mak-Super-Agent</p>
+    <p>System Check: OK</p>
+  </div>
+  <b:section id='main' showaddelement='yes'/>
+</body>
+</html>
+
